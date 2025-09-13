@@ -1,24 +1,66 @@
-# Google Trends AI Chatbots Analysis  
+**The AI Race: Who’s Winning Search Trends?**
 
-This project analyzes worldwide Google Trends data to compare the popularity of **ChatGPT**, **Google Gemini**, and **Microsoft Copilot**.  
+ChatGPT vs Gemini vs Copilot
 
-### 🔹 Tools Used
-- Python (Pandas, Matplotlib, Seaborn) for data cleaning + EDA  
-- Power BI for interactive dashboard  
+📈 This project analyzes global search interest in ChatGPT, Gemini, and Microsoft Copilot using Google Trends.
+The goal is to compare adoption patterns and highlight how the AI chatbot race is evolving.
 
-### 🔹 Files in this repo
-- `multiTimeline_new.csv` → Cleaned dataset  
-- `google_trends.py` → Python script for EDA + plots  
-- `google trends new.pbix` → Power BI dashboard file
+🔧 Tools & Technologies
 
-### 🔹 Screenshot 
-<img width="1466" height="908" alt="dashboard  png" src="https://github.com/user-attachments/assets/42b51ec6-64e0-44f7-be7a-544acbdb0bf7" />
+Python (Pandas, Matplotlib, Seaborn) – Data cleaning & exploratory analysis
+
+Power BI – Interactive dashboard visualization
+
+Google Trends – Data source
+
+📊** Key Insights**
+
+ChatGPT leads global search interest with steady growth since early 2023.
+
+Gemini surged from mid-2024, reflecting rapid adoption.
+
+Microsoft Copilot shows smaller but steady gains post Office 365 integration.
+
+Peak interest occurred in March–April 2025, driven by ChatGPT.
+
+Overall: ChatGPT dominates, Gemini is the fastest riser, Copilot grows gradually.
+
+📂 Repository Contents
+
+multiTimeline_new.csv → Cleaned Google Trends dataset
+
+google_trends.py → Python EDA and visualizations
+
+google_trends_new.pbix → Power BI dashboard
+
+🚀 How to Run
+Python (EDA & Plots)
+
+Clone this repo
+
+Install dependencies:
+
+pip install pandas matplotlib seaborn
 
 
-📌 **Key Insight**: ChatGPT shows the highest search popularity overall, but Gemini and Microsoft Copilot are steadily growing, showing increased interest over time.
+Run:
 
-### 🔹 How to Run
-1. Clone this repo.  
-2. Open notebook/script `google_trends.py` in VSCode or another editor → run to generate analysis plots.  
-3. Open `dashboard.pbix` in Power BI to view interactive dashboard.  
-4. Optionally, view `multiTimeline_new.csv` to see cleaned data.  
+python google_trends.py
+
+Power BI Dashboard
+
+Open google_trends_new.pbix in Power BI Desktop to explore interactive visuals.
+
+🖼️ Dashboard Preview
+
+📌 Summary
+
+This project demonstrates end-to-end data analytics:
+data collection → cleaning → EDA (Python) → visualization (Power BI).
+It reveals how AI chatbot adoption is unfolding worldwide:
+
+ChatGPT dominates awareness,
+
+Gemini is rising fastest,
+
+Copilot is steadily growing.

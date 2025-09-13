@@ -11,10 +11,7 @@ This project analyzes worldwide Google Trends data to compare the popularity of 
 - `google_trends.py` → Python script for EDA + plots  
 - `google trends new.pbix` → Power BI dashboard file  
 
-### 🔹 Dashboard
-Here’s a snapshot of the Power BI dashboard:  
 
-![Dashboard Screenshot](dashboard.png)
 
 ---
 
